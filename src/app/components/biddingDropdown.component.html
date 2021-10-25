@@ -1,0 +1,7 @@
+<div class="input-group">
+    <select class="form-select form-select-lg text-center bg-secondary text-white" (change)="onChange($event)">
+        <option *ngFor="let option of options">
+            {{option.val}}
+        </option>
+    </select>
+</div>

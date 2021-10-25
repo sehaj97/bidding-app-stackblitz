@@ -1,0 +1,5 @@
+<div class="input-group">
+    <input type="number" id="bid" [(ngModel)]="valuePrice" min="100000" step="100000" class="form-control form-control-lg text-center bg-secondary text-white" (change) = "onChange()">
+</div>
+
+<h2><span id="p-text">{{priceText}}</span>{{valuePrice}}</h2>
